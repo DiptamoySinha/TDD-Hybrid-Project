@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-19T20:27:39 IST" name="Data driven basic" finished-at="2023-08-19T20:27:56 IST" duration-ms="17106">
+    <groups>
+    </groups>
+    <test started-at="2023-08-19T20:27:39 IST" name="bank manager login test" finished-at="2023-08-19T20:27:41 IST" duration-ms="1534">
+      <class name="com.sinha.testCases.BankManagerLoginTest">
+        <test-method signature="bankManagerLogin()[pri:0, instance:com.sinha.testCases.BankManagerLoginTest@294425a7]" started-at="2023-08-19T20:27:39 IST" name="bankManagerLogin" finished-at="2023-08-19T20:27:40 IST" duration-ms="1296" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+The title is : Protractor practice website - Banking App expected [manager] but found [Protractor practice website - Banking App]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+The title is : Protractor practice website - Banking App expected [manager] but found [Protractor practice website - Banking App]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.sinha.testCases.BankManagerLoginTest.bankManagerLogin(BankManagerLoginTest.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerLogin -->
+      </class> <!-- com.sinha.testCases.BankManagerLoginTest -->
+    </test> <!-- bank manager login test -->
+    <test started-at="2023-08-19T20:27:41 IST" name="add customer test" finished-at="2023-08-19T20:27:55 IST" duration-ms="14033">
+      <class name="com.sinha.testCases.AddCustomerTest">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sinha.testCases.AddCustomerTest@4efbca5a]" started-at="2023-08-19T20:27:41 IST" name="addCustomer" data-provider="getCustomerDetails" finished-at="2023-08-19T20:27:44 IST" duration-ms="3693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diptamoy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sinha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[721507]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sinha.testCases.AddCustomerTest@4efbca5a]" started-at="2023-08-19T20:27:44 IST" name="addCustomer" data-provider="getCustomerDetails" finished-at="2023-08-19T20:27:48 IST" duration-ms="3525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamilton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="verifyAddedCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sinha.testCases.AddCustomerTest@4efbca5a]" started-at="2023-08-19T20:27:48 IST" name="verifyAddedCustomer" data-provider="getCustomerDetails" finished-at="2023-08-19T20:27:51 IST" duration-ms="3593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diptamoy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sinha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[721507]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedCustomer -->
+        <test-method signature="verifyAddedCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sinha.testCases.AddCustomerTest@4efbca5a]" started-at="2023-08-19T20:27:51 IST" name="verifyAddedCustomer" data-provider="getCustomerDetails" finished-at="2023-08-19T20:27:55 IST" duration-ms="3196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamilton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedCustomer -->
+      </class> <!-- com.sinha.testCases.AddCustomerTest -->
+    </test> <!-- add customer test -->
+    <test started-at="2023-08-19T20:27:55 IST" name="open account test" finished-at="2023-08-19T20:27:56 IST" duration-ms="1500">
+      <class name="com.sinha.testCases.OpenAccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sinha.testCases.OpenAccountTest@55183b20]" started-at="2023-08-19T20:27:28 IST" name="setup" finished-at="2023-08-19T20:27:39 IST" duration-ms="11402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openAccountTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.sinha.testCases.OpenAccountTest@55183b20]" started-at="2023-08-19T20:27:55 IST" name="openAccountTest" data-provider="getCustomerDetails" finished-at="2023-08-19T20:27:55 IST" duration-ms="585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diptamoy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sinha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[721507]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method signature="openAccountTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.sinha.testCases.OpenAccountTest@55183b20]" started-at="2023-08-19T20:27:55 IST" name="openAccountTest" data-provider="getCustomerDetails" finished-at="2023-08-19T20:27:56 IST" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamilton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method signature="verifyAccountId(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.sinha.testCases.OpenAccountTest@55183b20]" started-at="2023-08-19T20:27:56 IST" name="verifyAccountId" data-provider="getCustomerDetails" finished-at="2023-08-19T20:27:56 IST" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diptamoy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sinha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[721507]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountId -->
+        <test-method signature="verifyAccountId(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.sinha.testCases.OpenAccountTest@55183b20]" started-at="2023-08-19T20:27:56 IST" name="verifyAccountId" data-provider="getCustomerDetails" finished-at="2023-08-19T20:27:56 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamilton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountId -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sinha.testCases.OpenAccountTest@55183b20]" started-at="2023-08-19T20:27:56 IST" name="tearDown" finished-at="2023-08-19T20:27:57 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sinha.testCases.OpenAccountTest -->
+    </test> <!-- open account test -->
+  </suite> <!-- Data driven basic -->
+</testng-results>

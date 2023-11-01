@@ -1,0 +1,10 @@
+com\sinha\testCases\OpenAccountTest.class
+com\sinha\rough\TestLog4j2.class
+com\sinha\utilities\DataSuplier.class
+com\sinha\testCases\AddCustomerTest.class
+com\sinha\testCases\BankManagerLoginTest.class
+com\sinha\utilities\CaptureScreenShots.class
+com\sinha\rough\TestProperties.class
+com\sinha\base\TestBase.class
+com\sinha\listener\CustomListener.class
+com\sinha\rough\rough.class
